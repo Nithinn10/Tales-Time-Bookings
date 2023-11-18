@@ -1,0 +1,37 @@
+{
+    margin : 4px;
+    padding : 4px; 
+    border-spacing : 15px;
+ }
+  body {
+     background-image: url('background/blackk.jpg');
+     overflow: auto;
+   height: 210vh;
+   background-size: cover;
+   background-position: center;
+   }
+   h1{
+    text-align:left;
+      font-size:30px;
+      font-family:verdana;
+      text-transform:uppercase;
+      color: #fbc806;
+  }
+  h2{
+    text-align: left;
+    font-family: Verdana;
+    text-transform: uppercase;
+    color: #fbc806;
+  }
+  p{
+    color: #fff;
+  }
+
+.footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+  height: 15%;
+  width: 15%;
+}

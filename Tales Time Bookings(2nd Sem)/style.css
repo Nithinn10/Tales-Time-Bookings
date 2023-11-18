@@ -1,0 +1,159 @@
+*{
+  margin:0;
+  padding:0;
+}
+.main{
+  width:100%;
+  background: linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0,0,0,0.5)50%),url(background/hom\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+.icon{
+  width: 200px;
+  float:left;
+  height:70px;
+}
+.logo{
+  color:#fcd915f5;
+  font-size:25px;
+  font-family: Arial;
+  padding-left: 5px;
+  float: left;
+  padding-top: 20px;
+
+}
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li{
+  list-style: none;
+  margin-left: 75px;
+  margin-top: 27px;
+  font-size: 25px;
+}
+ul li a{
+  text-decoration: none;
+  color:#fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+
+ul li a:hover{
+  color:#fcd915f5;
+}
+
+
+
+
+.btn{
+  width: 150px;
+  height: 40px;
+  background: #c9a035;
+  border: none;
+  margin-top: 18px;
+  margin-left: 450px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn a{
+  text-decoration: none;
+  color: #000;
+  transition: .3s ease;
+}
+.btn:hover{
+  background-color: #fff;
+}
+.btn1{
+  margin-right: 50px;
+  display: inline-block;
+background-color: #c9a035;
+border-radius: 50px;
+border: 4px double #cccccc;
+color: #eeeeee;
+text-align: center;
+text-transform:uppercase;
+font-family: Georgia;
+font-size: 20px;
+padding: 10px;
+width: 200px;
+cursor: pointer;
+margin: 5px;
+}
+div1{
+  position: absolute;
+left: 10%;
+bottom: 40%;
+
+}
+
+
+div2{
+
+
+position: absolute;
+left: 40%;
+bottom: 40%;
+}
+div3{
+position: absolute;
+left: 70%;
+bottom: 40%;
+}
+
+
+h1{
+text-align:center;
+font-size:30px;
+font-family: Slabo;
+text-transform:uppercase;
+}
+p{
+background-image: "mini.jpg";
+
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: 100% 100%;
+}
+#preloader{
+  background: #000 url(images/200w.gif) no-repeat center;
+  background-size: 30%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+.about{
+  text-align: center;
+}
+  h1{
+    text-align:left;
+      font-size:30px;
+      font-family:verdana;
+      text-transform:uppercase;
+      color: #fbc806;
+  }
+  h2{
+    text-align: left;
+    font-family: Verdana;
+    text-transform: uppercase;
+    color: #fbc806;
+  }
+  p{
+    color: #fff;
+  }

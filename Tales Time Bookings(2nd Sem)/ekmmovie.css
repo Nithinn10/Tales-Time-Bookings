@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 2px; 
+    border-spacing: 15px;
+ }
+  body {
+     background-image: url('background/blackk.jpg');
+     overflow: auto;
+   height: 210vh;
+   background-size: cover;
+   background-position: center;
+   }
+div {
+ 
+    width: 300px;
+    border-width: 4px; 
+    padding: 10px;
+    margin: 20px;
+    border-width: 4px; 
+    border-style: solid;
+    color: #fbc806;
+  position: absolute;
+  left: 65%;
+  bottom: -3%;
+  }
+  
+  
+  .btn1{
+              margin-right: 30px;
+              margin-right: 50px;
+              display: inline-block;
+          background-color: #ffffff;
+          border-radius: 5px;
+          border: 4px single #4515c9;
+          color: #ffffff;
+          text-align: center;
+          font-size: 15px;
+          font-weight: bolder;
+          padding: 7px;
+          width: 80px;
+          background-color: 
+          #a9a9a9;
+          opacity: 100%;
+          transition: all 0.5s;
+          cursor: pointer;
+          margin: 20px;
+          }
+  
+  h1{
+      text-align:center;
+      font-size:30px;
+      font-family:verdana;
+      text-transform:uppercase;
+      color: #fbc806;
+  }
+
+p{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: small;
+}
+  h3{
+    color: #ffffff;
+    font-family: ;
+
+  }
+  div1{
+    position: absolute;
+    left: 1%;
+    bottom:45.8%;
+    
+  }
+  
+  .button {
+    cursor: pointer;
+            border: 0px solid #3498db;
+            background-color: transparent;
+            height: 40px;
+            width: 70px;
+            color: #ffffff;
+            font-style: Roboto;
+            font-size: 13px;
+            text-align: center;
+            box-shadow: 0 0px 0px rgba(0, 0, 0, 0.6);
+  }
+  .date{
+    margin-right: 50px;
+
+    display: inline-block;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px double #fbc806;
+  color: #fbc806;
+  text-align: center;
+  text-transform:uppercase;
+  font-family: Georgia;
+  font-size: 20px;
+  padding: 5px;
+  width: 100px;
+  cursor: pointer;
+  margin: 20px;
+  position: absolute;
+
+  }
+  div2{
+    position: absolute;
+    left: 1%;
+    bottom: 90%;
+  }
+  div3{
+    position: absolute;
+    left: 10%;
+    bottom: 90%;
+  }
+  .trailer
+  {
+      position: fixed;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      z-index: 10000;
+      background: rgba(0, 0, 0, .95);
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      visibility: hidden;
+      opacity: 0;
+      border: none;
+  }
+  .trailer.active
+  {
+      visibility: visible;
+      opacity: 1;
+  
+  }
+  
+  .trailer video
+  {
+      position: relative;
+      max-width: 900px;
+      outline: none;
+  }
+  .close{
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      cursor: pointer;
+      filter: invert(1);
+      max-width: 32px;
+  }
+  .p1
+  {
+    position: relative;
+    text-transform: uppercase;
+    background: #ffffff;
+    color:#111;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+  }
+  .info{
+      cursor: pointer;
+              border: 0px solid #3498db;
+              background-color: transparent;
+              height: 40px;
+              width: 70px;
+              color: #ffffff;
+              font-style: Roboto;
+              font-size: 20px;
+              text-align: center;
+              box-shadow: 0 0px 0px rgba(0, 0, 0, 0.6);
+    }

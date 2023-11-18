@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  
+}
+body {
+  background-image: url('background/blackk.jpg');
+  overflow: auto;
+  height: 190vh;
+  background-size: cover;
+  background-position: center;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+*{
+   margin: 0px;
+   padding: 15px; 
+}
+ body {
+   
+  }
+  h1{
+    text-align:center;
+      font-size:30px;
+      font-family:verdana;
+      text-transform:uppercase;
+      color: #f3c51f;
+  }
+  h3{
+    color: #ffffff;
+  }
+  p{
+    font-size: large;
+    color: rgb(255, 250, 250);
+  }
+  div{
+ 
+    width: 300px;
+    border-width: 2px; 
+    border-style: solid;
+    color: #f3c51f;
+    padding: 10px;
+    margin: 20px;
+  position: absolute;
+  left: 4%;
+  bottom: -3%;
+  }
+  div2{
+ 
+    width: 300px;
+    border-width: 2px; 
+    border-style: solid;
+    color: #f3c51f;
+    padding: 10px;
+    margin: 20px;
+  position: absolute;
+  left: 37%;
+  bottom: -3%;
+  }
+  div3{
+ 
+    width: 300px;
+    border-width: 2px; 
+    border-style: solid;
+    color: #f3c51f;
+    padding: 10px;
+    margin: 20px;
+  position: absolute;
+  left: 70%;
+  bottom: -3%;
+  }
+  div4{
+ 
+    width: 300px;
+    border-width: 2px; 
+    border-style: solid;
+    color: #f3c51f;
+    padding: 10px;
+    margin: 20px;
+  position: absolute;
+  left: 4%;
+  bottom: -95%;
+  }
+  div5{
+ 
+    width: 300px;
+    border-width: 2px; 
+    border-style: solid;
+    color: #f3c51f;
+    padding: 10px;
+    margin: 20px;
+  position: absolute;
+  left: 37%;
+  bottom: -95%;
+  }
+  div6{
+ 
+    width: 300px;
+    border-width: 2px; 
+    border-style: solid;
+    color: #f3c51f;
+    padding: 10px;
+    margin: 20px;
+  position: absolute;
+  left: 70%;
+  bottom: -95%;
+  }
+  div7{
+ 
+    width: 300px;
+    border-width: 2px; 
+    border-style: solid;
+    color: #f3c51f;
+    padding: 10px;
+    margin: 20px;
+  position: absolute;
+  left: 4%;
+  bottom: -180%;
+  }
+  div8{
+ 
+    width: 300px;
+    border-width: 2px; 
+    border-style: solid;
+    color: #f3c51f;
+    padding: 10px;
+    margin: 20px;
+  position: absolute;
+  left: 37%;
+  bottom: -180%;
+  }
+  .trailer
+  {
+      position: fixed;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      z-index: 10000;
+      background: rgba(0, 0, 0, .95);
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      visibility: hidden;
+      opacity: 0;
+      border: none;
+  }
+  .trailer.active
+  {
+      visibility: visible;
+      opacity: 1;
+  
+  }
+  
+  .trailer video
+  {
+      position: relative;
+      max-width: 800px;
+      outline: none;
+  }
+  .close{
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      left: 70px;
+      cursor: pointer;
+      filter: invert(1);
+      max-width: 32px;
+  }

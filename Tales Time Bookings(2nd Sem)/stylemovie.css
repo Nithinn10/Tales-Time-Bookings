@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 2px; 
+ }
+  body {
+     background-image: url('');
+   }
+div {
+ 
+    width: 300px;
+    border: 8px #000000;
+    padding: 10px;
+    margin: 20px;
+  position: absolute;
+  left: 65%;
+  bottom: -3%;
+  }
+  
+  
+  .btn1{
+              margin-right: 30px;
+              margin-right: 50px;
+              display: inline-block;
+          background-color: #ffffff;
+          border-radius: 5px;
+          border: 4px single #4515c9;
+          color: #3a23bb;
+          text-align: center;
+          font-size: 15px;
+          padding: 7px;
+          width: 80px;
+          
+          transition: all 0.5s;
+          cursor: pointer;
+          margin: 20px;
+          }
+  
+  h1{
+      text-align:center;
+      font-size:30px;
+      font-family:verdana;
+      text-transform:uppercase;
+      color: #000000;
+  }
+
+p{
+    color: #000000;
+}
+  h3{
+    color: #000000;
+    font-family:sans-serif ;
+
+  }
+  div1{
+    position: absolute;
+    left: 3%;
+    bottom:46%;
+    
+  }
+  .btn2{
+    margin-right: 30px;
+              margin-right: 50px;
+              display: inline-block;
+          background-color: #ffffff;
+          border-radius: 5px;
+          border: 4px single #4515c9;
+          color: #3a23bb;
+          text-align: center;
+          font-size: 15px;
+          padding: 7px;
+          width: 80px;
+          cursor: pointer;
+          margin: 20px;
+  }
+  .button {
+    cursor: pointer;
+            border: 0px solid #3498db;
+            background-color: transparent;
+            height: 40px;
+            width: 200px;
+            color: #ffffff;
+            font-style: Roboto;
+            font-size: 20px;
+            box-shadow: 0 0px 0px rgba(0, 0, 0, 0.6);
+  }
+  .date{
+    margin-right: 50px;
+
+    display: inline-block;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  text-transform:uppercase;
+  font-family: Georgia;
+  font-size: 20px;
+  padding: 5px;
+  width: 100px;
+  cursor: pointer;
+  margin: 20px;
+  position: absolute;
+
+  }
+  div2{
+    position: absolute;
+    left: 1%;
+    bottom: 90%;
+  }
+  div3{
+    position: absolute;
+    left: 10%;
+    bottom: 90%;
+  }
+  div4{
+    position: absolute;
+    left: 4%;
+    bottom:61%;
+  }
+  div5{
+    position: absolute;
+    left: 8%;
+    bottom:77%;
+  }
+  div6{
+    position: absolute;
+    left: 25%;
+    bottom:61%;
+  }
+  

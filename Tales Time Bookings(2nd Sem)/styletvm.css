@@ -1,0 +1,146 @@
+* 
+*{
+  margin: 0px;
+  padding: 2px; 
+}
+body {
+   background-image: url('background/blackk.jpg');
+   overflow: auto;
+   height: 190vh;
+   background-size: cover;
+   background-position: center;
+ }{
+    box-sizing: border-box;
+  }
+  background-color
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  *{
+     margin: 0px;
+     padding: 15px; 
+  }
+   body {
+     
+    }
+    h1{
+      text-align:center;
+        font-size:30px;
+        font-family:verdana;
+        text-transform:uppercase;
+        color: #fbc806;
+    }
+    h3{
+      color: #fff;
+    }
+    p{
+      font-size: large;
+      color: #fff;
+    }
+    div{
+   
+      width: 300px;
+      border-width: 2px; 
+      border-style: solid;
+      color: #fbc806;
+      padding: 10px;
+      margin: 20px;
+    position: absolute;
+    left: 4%;
+    bottom: -5%;
+    }
+    div2{
+   
+      width: 300px;
+      border-width: 2px; 
+      border-style: solid;
+      color: #fbc806;
+      padding: 10px;
+      margin: 20px;
+    position: absolute;
+    left: 37%;
+    bottom: -5%;
+    }
+    div3{
+   
+      width: 300px;
+      border-width: 2px; 
+      border-style: solid;
+      color: #fbc806;
+      padding: 10px;
+      margin: 20px;
+    position: absolute;
+    left: 70%;
+    bottom: -5%;
+    }
+    div4{
+   
+      width: 300px;
+      border-width: 2px; 
+      border-style: solid;
+      color: #fbc806;
+      padding: 10px;
+      margin: 20px;
+    position: absolute;
+    left: 4%;
+    bottom: -97%;
+    }
+    div5{
+   
+      width: 300px;
+      border-width: 2px; 
+      border-style: solid;
+      color: #fbc806;
+      padding: 10px;
+      margin: 20px;
+    position: absolute;
+    left: 37%;
+    bottom: -97%;
+    }
+    div6{
+   
+      width: 300px;
+      border-width: 2px; 
+      border-style: solid;
+      color: #fbc806;
+      padding: 10px;
+      margin: 20px;
+    position: absolute;
+    left: 70%;
+    bottom: -95%;
+    }
+    div7{
+   
+      width: 300px;
+      border-width: 2px; 
+      border-style: solid;
+      color: #fbc806;
+      padding: 10px;
+      margin: 20px;
+    position: absolute;
+    left: 4%;
+    bottom: -180%;
+    }
+    div8{
+   
+      width: 300px;
+      border-width: 2px; 
+      border-style: solid;
+      color: #fbc806;
+      padding: 10px;
+      margin: 20px;
+    position: absolute;
+    left: 37%;
+    bottom: -180%;
+    }
+  
